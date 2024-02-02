@@ -9,7 +9,7 @@ Allows to store secrets like API Tokens in an ansible-vault yaml files and expor
 pip install -r requirements.txt
 
 # if you want to access it from anywhere
-ln -s /usr/bin/secret-export ./secrets-export.py
+ln -s `pwd`/secrets-export.py /usr/bin/secret-export
 ```
 
 ## Usage
